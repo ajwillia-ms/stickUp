@@ -57,7 +57,7 @@ function($) {
 	  			} else {
 	  				topMargin = 0;
 	  			}
-	  			menuSize = $('.'+itemClass).size();
+	  			menuSize = objn;
   			}			
 			stickyHeight = parseInt($(this).height());
 			stickyMarginB = parseInt($(this).css('margin-bottom'));
