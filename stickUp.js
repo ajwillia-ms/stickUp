@@ -108,7 +108,7 @@ function($) {
 				});
 			};
 
-			if(varscroll + topMargin < vartop){
+			if(varscroll + topMargin <= vartop){
 				$('.stuckMenu').removeClass('isStuck');
 				$('.stuckMenu').next().closest('div').css({
 					'margin-top': currentMarginT + 'px'
